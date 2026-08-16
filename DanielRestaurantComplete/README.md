@@ -1,0 +1,1 @@
+Run: cd backend && mvn spring-boot:run then open http://localhost:8080

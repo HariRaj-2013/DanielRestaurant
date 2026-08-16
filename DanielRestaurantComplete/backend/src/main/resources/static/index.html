@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><body><h1>Daniel Restaurant</h1><ul id='m'></ul><script>fetch('/api/dishes').then(r=>r.json()).then(d=>{m.innerHTML=d.map(x=>`<li>${x.name} - ₹${x.price}</li>`).join('')})</script></body></html>
